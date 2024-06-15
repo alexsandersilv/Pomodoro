@@ -17,13 +17,12 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        
-        
-        <TextBlock FontSize="80" Grid.Row="1" Grid.Column="1" Name="Separator" Text=":"
+
+        <TextBlock FontSize="80" Grid.Row="1" Grid.Column="1" Name="Separator" Text=":" 
                    HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBlock FontSize="80" Grid.Row="1" Grid.Column="0" Name="MinutesUI" Text="25"
-                   Margin="0,0,10,0"  HorizontalAlignment="Right" VerticalAlignment="Center" />
-        <TextBlock FontSize="80" Grid.Row="1" Grid.Column="2" Name="SecondsUI" Text="00"
-                   Margin="10,0,0,0"  HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <TextBlock FontSize="80" Grid.Row="1" Grid.Column="0" Name="MinutesUI" Text="15" 
+                   Margin="0,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <TextBlock FontSize="80" Grid.Row="1" Grid.Column="2" Name="SecondsUI" Text="00" 
+                   Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" />
     </Grid>
 </UserControl>

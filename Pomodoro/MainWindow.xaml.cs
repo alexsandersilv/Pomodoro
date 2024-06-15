@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Pomodoro.Views.Controllers;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,9 @@ namespace Pomodoro
         public MainWindow()
         {
             InitializeComponent();
+            timerButtonsControl.InitializeTimerControl(timerControl);
+
+
         }
     }
 }

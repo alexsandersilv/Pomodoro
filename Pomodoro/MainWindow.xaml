@@ -24,9 +24,9 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <controls:TimerControl  Grid.Column="1" Grid.Row="1" />
-        <controls:TimerButtonsControl Grid.Column="1" Grid.Row="2" 
-                                      HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <controls:TimerControl x:Name="timerControl"  Grid.Column="1" Grid.Row="1" />
+        <controls:TimerButtonsControl x:Name="timerButtonsControl" Grid.Column="1" Grid.Row="2"
+                                      HorizontalAlignment="Center" VerticalAlignment="Center" />
 
     </Grid>
 </Window>

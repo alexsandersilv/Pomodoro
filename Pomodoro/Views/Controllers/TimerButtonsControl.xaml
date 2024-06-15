@@ -22,7 +22,7 @@
             <Image Name="IconsPlayPause" Source="pack://application:,,,/Resources/Images/play.png" Width="25" Height="25" />
         </Button>
         
-        <Button Name="Stop" Grid.Column="1" Margin="10, 0">
+        <Button Name="Stop" Grid.Column="1" Margin="10, 0" Click="Stop_Click">
             <Image Source="pack://application:,,,/Resources/Images/stop.png" Width="25" Height="25" />
         </Button>
         

@@ -21,12 +21,20 @@ namespace Pomodoro.Views.Controllers
     public partial class TimerControl : UserControl
     {
 
-        public TextBlock minutesUI { get { return MinutesUI; } }
-        public TextBlock secondsUI { get { return SecondsUI; } }
-
         public TimerControl()
         {
             InitializeComponent();
         }
+
+        public TextBlock MinutesTextBlock
+        {
+            get { return MinutesUI; }
+        }
+
+        public TextBlock SecondsTextBlock
+        {
+            get { return SecondsUI; }
+        }
+
     }
 }

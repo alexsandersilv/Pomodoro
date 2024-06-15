@@ -1,69 +1,109 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// TimerButtonsControl.xaml.cs
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
-using System.Timers;
-using System.Diagnostics;
 
 namespace Pomodoro.Views.Controllers
 {
-    /// <summary>
-    /// Interaction logic for TimerButtonsControl.xaml
-    /// </summary>
     public partial class TimerButtonsControl : UserControl
     {
-
         private DispatcherTimer timer;
         private bool _isRunning = false;
+        private TimerControl timerControl;
 
         public TimerButtonsControl()
         {
             InitializeComponent();
             timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromMicroseconds(1000);
-
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += Timer_Tick;
         }
 
+        public void InitializeTimerControl(TimerControl timerControl)
+        {
+            this.timerControl = timerControl;
+        }
 
         private void PlayAndPause_Click(object sender, RoutedEventArgs e)
         {
-            if (!_isRunning) 
-            { 
-                _isRunning = true;
-                timer.Start();
-                IconsPlayPause.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Images/pause.png"));
-
+            if (!_isRunning)
+            {
+                PlayTimer();
             }
             else
             {
-                _isRunning = false;
-                timer.Stop();
-                IconsPlayPause.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Images/play.png"));
+                PauseTimer();
             }
+        }
+
+        private void Stop_Click(object sender, RoutedEventArgs e)
+        {
+            StopTimer();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e) 
+        {
+            int minutes = int.Parse(timerControl.MinutesUI.Text);
+            int seconds = int.Parse(timerControl.SecondsUI.Text);
+
+            if (seconds == 0)
+            {
+                if (minutes == 0)
+                {
+                    PauseTimer();
+                    return;
+                }
+
+                minutes--;
+                seconds = 59;
+            }
+            else
+            {
+                seconds--;
+            }
+
+            if (seconds < 10)
+            {
+                timerControl.SecondsUI.Text = "0" + seconds.ToString();
+            }
+            else
+            {
+                timerControl.SecondsUI.Text = seconds.ToString();
+            }
+
+            if (minutes < 10)
+            {
+                timerControl.MinutesUI.Text = "0" + minutes.ToString();
+            }
+            else
+            {
+                timerControl.MinutesUI.Text = minutes.ToString();
+            }
+
         }
 
         private void PlayTimer()
         {
-            
-
+            timer.Start();
+            _isRunning = true;
+            IconsPlayPause.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Images/pause.png"));
         }
 
-        private void StopTimer() 
+        private void PauseTimer()
         {
-        
+            timer.Stop();
+            _isRunning = false;
+            IconsPlayPause.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/Images/play.png"));
         }
 
+        private void StopTimer()
+        {
+            PauseTimer();
+            timerControl.MinutesUI.Text = "15";
+            timerControl.SecondsUI.Text = "00";
+        }
 
+       
     }
 }
