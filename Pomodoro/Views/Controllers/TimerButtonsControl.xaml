@@ -26,11 +26,11 @@
             <Image Source="pack://application:,,,/Resources/Images/stop.png" Width="25" Height="25" />
         </Button>
         
-        <Button Name="Add" Grid.Column="2" Margin="10, 0">
+        <Button Name="Add" Grid.Column="2" Margin="10, 0" Click="Add_Click">
             <Image Source="pack://application:,,,/Resources/Images/plus.png" Width="25" Height="25" />
         </Button>
 
-        <Button Name="Remove" Grid.Column="3" Margin="10, 0">
+        <Button Name="Remove" Grid.Column="3" Margin="10, 0" Click="Remove_Click">
             <Image Source="pack://application:,,,/Resources/Images/minus.png" Width="25" Height="25" />
         </Button>
 

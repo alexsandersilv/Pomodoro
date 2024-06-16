@@ -104,6 +104,30 @@ namespace Pomodoro.Views.Controllers
             timerControl.SecondsUI.Text = "00";
         }
 
-       
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (int.Parse(timerControl.MinutesUI.Text) <= 55)
+            {
+                timerControl.MinutesUI.Text = (int.Parse(timerControl.MinutesUI.Text.ToString()) + 5).ToString();
+            }
+        }
+
+        private void Remove_Click(object sender, RoutedEventArgs e)
+        {
+            if (int.Parse(timerControl.MinutesUI.Text) >= 6)
+            {
+                timerControl.MinutesUI.Text = (int.Parse(timerControl.MinutesUI.Text.ToString()) - 5).ToString();
+                if (int.Parse(timerControl.MinutesUI.Text) < 10)
+                {
+                    timerControl.MinutesUI.Text = "0" + timerControl.MinutesUI.Text.ToString();
+                }
+            }
+
+            
+          
+
+           
+        }
     }
 }

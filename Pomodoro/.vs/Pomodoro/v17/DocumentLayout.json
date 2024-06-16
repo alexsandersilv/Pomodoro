@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\alexs\\OneDrive\\Documents\\GitHub\\Pomodoro\\Pomodoro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{714D430C-7AD7-4B7A-BEE0-75ACB8CD35F2}|Pomodoro.csproj|c:\\users\\alexs\\onedrive\\documents\\github\\pomodoro\\pomodoro\\views\\controllers\\timercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{714D430C-7AD7-4B7A-BEE0-75ACB8CD35F2}|Pomodoro.csproj|solutionrelative:views\\controllers\\timercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{714D430C-7AD7-4B7A-BEE0-75ACB8CD35F2}|Pomodoro.csproj|c:\\users\\alexs\\onedrive\\documents\\github\\pomodoro\\pomodoro\\views\\controllers\\timerbuttonscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714D430C-7AD7-4B7A-BEE0-75ACB8CD35F2}|Pomodoro.csproj|solutionrelative:views\\controllers\\timerbuttonscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,23 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TimerControl.xaml",
-              "DocumentMoniker": "C:\\Users\\alexs\\OneDrive\\Documents\\GitHub\\Pomodoro\\Pomodoro\\Views\\Controllers\\TimerControl.xaml",
-              "RelativeDocumentMoniker": "Views\\Controllers\\TimerControl.xaml",
-              "ToolTip": "C:\\Users\\alexs\\OneDrive\\Documents\\GitHub\\Pomodoro\\Pomodoro\\Views\\Controllers\\TimerControl.xaml",
-              "RelativeToolTip": "Views\\Controllers\\TimerControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T19:13:10.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TimerButtonsControl.xaml",
               "DocumentMoniker": "C:\\Users\\alexs\\OneDrive\\Documents\\GitHub\\Pomodoro\\Pomodoro\\Views\\Controllers\\TimerButtonsControl.xaml",
               "RelativeDocumentMoniker": "Views\\Controllers\\TimerButtonsControl.xaml",
@@ -50,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TimerButtonsControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alexs\\OneDrive\\Documents\\GitHub\\Pomodoro\\Pomodoro\\Views\\Controllers\\TimerButtonsControl.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Controllers\\TimerButtonsControl.xaml.cs",
               "ToolTip": "C:\\Users\\alexs\\OneDrive\\Documents\\GitHub\\Pomodoro\\Pomodoro\\Views\\Controllers\\TimerButtonsControl.xaml.cs",
               "RelativeToolTip": "Views\\Controllers\\TimerButtonsControl.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAxwFYAAAAJAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAA8wG8AAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T18:46:02.096Z",
               "EditorCaption": ""
