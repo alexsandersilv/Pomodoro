@@ -19,15 +19,7 @@ C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-wind
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Pomodoro.pdb
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Pomodoro.genruntimeconfig.cache
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\ref\Pomodoro.dll
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerControl.g.cs
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerControl.baml
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\SoundsControl.g.cs
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\SoundsControl.baml
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\App.baml
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Pomodoro.Properties.Resources.resources
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Pomodoro.csproj.GenerateResource.cache
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerButtonsControl.g.cs
-C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerButtonsControl.baml
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\bin\Debug\net8.0-windows\Properties\Resources.resx
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\bin\Debug\net8.0-windows\Properties\Settings.settings

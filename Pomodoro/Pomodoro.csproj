@@ -10,24 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\Fonts\Roboto.ttf" />
-    <None Remove="Resources\Images\minus.png" />
-    <None Remove="Resources\Images\pause.png" />
-    <None Remove="Resources\Images\play.png" />
-    <None Remove="Resources\Images\plus.png" />
-    <None Remove="Resources\Images\stop.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Resources\Fonts\Roboto.ttf" />
-    <Resource Include="Resources\Images\minus.png" />
-    <Resource Include="Resources\Images\pause.png" />
-    <Resource Include="Resources\Images\play.png" />
-    <Resource Include="Resources\Images\plus.png" />
-    <Resource Include="Resources\Images\stop.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -54,6 +36,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Fonts\" />
+    <Folder Include="Resources\Images\" />
+    <Folder Include="Views\Controllers\" />
   </ItemGroup>
 
 </Project>

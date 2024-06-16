@@ -4,33 +4,6 @@
              xmlns:local="clr-namespace:Pomodoro"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <FontFamily x:Key="RobotoFont">pack://application:,,,/Resources/Fonts/Roboto.ttf#RobotoFont</FontFamily>
-        <Style TargetType="TextBlock">
-            
-            <Setter Property="FontFamily" Value="{StaticResource RobotoFont}"/>
-        </Style>
-        <Style TargetType="Control">
-            <Setter Property="FontFamily" Value="{StaticResource RobotoFont}"/>
-        </Style>
 
-        <Style TargetType="Button">
-            <Setter Property="Width" Value="45" />
-            <Setter Property="Height" Value="45" />
-            <Setter Property="Background" Value="Transparent" />
-            <Setter Property="BorderBrush" Value="Black" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" 
-                                BorderBrush="{TemplateBinding BorderBrush}" 
-                                BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="50">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
     </Application.Resources>
 </Application>

@@ -59,55 +59,5 @@ namespace Pomodoro.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] minus {
-            get {
-                object obj = ResourceManager.GetObject("minus", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] pause {
-            get {
-                object obj = ResourceManager.GetObject("pause", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] play {
-            get {
-                object obj = ResourceManager.GetObject("play", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] plus {
-            get {
-                object obj = ResourceManager.GetObject("plus", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] stop {
-            get {
-                object obj = ResourceManager.GetObject("stop", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
