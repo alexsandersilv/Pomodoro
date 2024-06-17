@@ -10,6 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Fonts\InterBold.ttf" />
+    <None Remove="Resources\Fonts\InterRegular.ttf" />
+    <None Remove="Resources\Fonts\InterSemiBold.ttf" />
+    <None Remove="Resources\Fonts\RajdhaniBold.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -39,9 +46,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Fonts\" />
     <Folder Include="Resources\Images\" />
-    <Folder Include="Views\Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Fonts\InterBold.ttf" />
+    <Resource Include="Resources\Fonts\InterRegular.ttf" />
+    <Resource Include="Resources\Fonts\InterSemiBold.ttf" />
+    <Resource Include="Resources\Fonts\RajdhaniBold.ttf" />
   </ItemGroup>
 
 </Project>

@@ -4,12 +4,36 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pomodoro"
+        xmlns:controls="clr-namespace:Pomodoro.Views.Controllers"
         mc:Ignorable="d"
         ResizeMode="NoResize"
         WindowStyle="SingleBorderWindow"
         SizeToContent="WidthAndHeight"
+        Background="#121214"
         Title="Pomodoro" MinHeight="600" MinWidth="900">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <controls:TimerControl />
+            <controls:TimerButtonControl Margin="0, 20, 0, 0" Grid.Row="1" />
+        </Grid>
         
+        <Grid Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <controls:ChallengeControl />
+            
+        </Grid>
+
     </Grid>
 </Window>

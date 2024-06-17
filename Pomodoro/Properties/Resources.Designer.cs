@@ -59,5 +59,45 @@ namespace Pomodoro.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] InterBold {
+            get {
+                object obj = ResourceManager.GetObject("InterBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] InterRegular {
+            get {
+                object obj = ResourceManager.GetObject("InterRegular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] InterSemiBold {
+            get {
+                object obj = ResourceManager.GetObject("InterSemiBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] RajdhaniBold {
+            get {
+                object obj = ResourceManager.GetObject("RajdhaniBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

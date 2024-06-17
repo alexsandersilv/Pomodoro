@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\App.xaml
-11407045341
+4-227002139
 
-8-11074809
+11-1781459438
 198-1509178875
-MainWindow.xaml;
+MainWindow.xaml;Views\Controllers\ChallengeControl.xaml;Views\Controllers\TimerButtonControl.xaml;Views\Controllers\TimerControl.xaml;
 
 True
 

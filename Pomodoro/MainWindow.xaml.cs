@@ -19,8 +19,6 @@ namespace Pomodoro
         public MainWindow()
         {
             InitializeComponent();
-
-
         }
     }
 }

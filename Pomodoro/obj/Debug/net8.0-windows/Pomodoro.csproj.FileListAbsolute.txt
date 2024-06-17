@@ -23,3 +23,11 @@ C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-wind
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Pomodoro.csproj.GenerateResource.cache
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\bin\Debug\net8.0-windows\Properties\Resources.resx
 C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\bin\Debug\net8.0-windows\Properties\Settings.settings
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\ChallengeControl.g.cs
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerControl.g.cs
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\ChallengeControl.baml
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerControl.baml
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\App.baml
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerButtonControl.g.cs
+C:\Users\alexs\OneDrive\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\net8.0-windows\Views\Controllers\TimerButtonControl.baml

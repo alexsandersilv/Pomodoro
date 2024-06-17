@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:Pomodoro"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+        <FontFamily x:Key="InterFont">pack://application,,,/Resources/Fonts/InterRegular.ttf#InterFont</FontFamily>
+        <FontFamily x:Key="InterFontBold">pack://application,,,/Resources/Fonts/InterBold.ttf#InterFontBold</FontFamily>
 
+        <FontFamily x:Key="Rajdhani">pack://application,,,/Resources/Fonts/RajdhaniBold.ttf#Rajdhani</FontFamily>
     </Application.Resources>
 </Application>
