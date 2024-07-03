@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Pomodoro.Views.Controllers
 {
@@ -20,9 +21,32 @@ namespace Pomodoro.Views.Controllers
     /// </summary>
     public partial class TimerControl : UserControl
     {
+
+
         public TimerControl()
         {
             InitializeComponent();
         }
+
+        public TextBlock MinutesLeftBlock
+        {
+            get { return MinutesLeft; }
+        }
+
+        public TextBlock MinutesRightBlock
+        {
+            get { return MinutesRight; } 
+        }
+
+        public TextBlock SecondsLeftBlock
+        {
+            get { return SecondsLeft; }
+        }
+
+        public TextBlock SecondsRightBlock
+        {
+            get { return SecondsRight; } 
+        }
+            
     }
 }

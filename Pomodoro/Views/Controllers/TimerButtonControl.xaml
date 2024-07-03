@@ -34,5 +34,5 @@
             </Style.Triggers>
         </Style>
     </UserControl.Resources>
-    <Button Content="Start Timer" />
+    <Button Name="Start" Content="Start Timer" Click="Start_Click" />
 </UserControl>

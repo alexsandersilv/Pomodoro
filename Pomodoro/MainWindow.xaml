@@ -30,7 +30,7 @@
             <controls:TimerButtonControl Margin="0, 20, 0, 0" Grid.Row="1" />
         </Grid>
         
-        <Grid Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid Grid.Column="1" Margin="100">
             <controls:ChallengeControl />
             
         </Grid>
