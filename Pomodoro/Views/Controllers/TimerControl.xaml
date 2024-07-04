@@ -39,8 +39,8 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <TextBlock Margin="0, 0, 1, 0" Grid.Column="0" Name="MinutesLeft" Text="1" />
-            <TextBlock Margin="1, 0, 0, 0" Grid.Column="1" Name="MinutesRight" Text="5" />
+            <TextBlock Margin="0, 0, 1, 0" Width="60" TextAlignment="Center" Grid.Column="0" Name="MinutesLeft" Text="1" />
+            <TextBlock Margin="1, 0, 0, 0" Width="60" TextAlignment="Center" Grid.Column="1" Name="MinutesRight" Text="5" />
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -53,8 +53,8 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <TextBlock Margin="0, 0, 1, 0" Grid.Column="0" Name="SecondsLeft" Text="0" />
-            <TextBlock Margin="1, 0, 0, 0" Grid.Column="1" Name="SecondsRight" Text="0" />
+            <TextBlock Margin="0, 0, 1, 0" Width="60" TextAlignment="Center" Grid.Column="0" Name="SecondsLeft" Text="0" />
+            <TextBlock Margin="1, 0, 0, 0" Width="60" TextAlignment="Center" Grid.Column="1" Name="SecondsRight" Text="0" />
         </Grid>
     </Grid>
 </UserControl>

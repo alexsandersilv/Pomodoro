@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Windows.Threading;
+﻿using System.Windows.Controls;
 
 namespace Pomodoro.Views.Controllers
 {
@@ -21,32 +7,33 @@ namespace Pomodoro.Views.Controllers
     /// </summary>
     public partial class TimerControl : UserControl
     {
-
-
         public TimerControl()
         {
             InitializeComponent();
         }
 
-        public TextBlock MinutesLeftBlock
+        public int MinutesL
         {
-            get { return MinutesLeft; }
+            get { return int.Parse(MinutesLeft.Text); }
+            set { MinutesLeft.Text = value.ToString(); }
         }
 
-        public TextBlock MinutesRightBlock
+        public int MinutesR
         {
-            get { return MinutesRight; } 
+            get { return int.Parse(MinutesRight.Text); }
+            set { MinutesRight.Text = value.ToString(); }
         }
 
-        public TextBlock SecondsLeftBlock
+        public int SecondsL
         {
-            get { return SecondsLeft; }
+            get { return int.Parse(SecondsLeft.Text); }
+            set { SecondsLeft.Text = value.ToString(); }
         }
 
-        public TextBlock SecondsRightBlock
+        public int SecondsR
         {
-            get { return SecondsRight; } 
+            get { return int.Parse(SecondsRight.Text); }
+            set { SecondsRight.Text = value.ToString(); }
         }
-            
     }
 }

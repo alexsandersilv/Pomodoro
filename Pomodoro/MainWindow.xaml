@@ -26,13 +26,12 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <controls:TimerControl />
-            <controls:TimerButtonControl Margin="0, 20, 0, 0" Grid.Row="1" />
+            <controls:TimerControl x:Name="timerControl" />
+            <controls:TimerButtonControl x:Name="timerButtonControl" Margin="0, 20, 0, 0" Grid.Row="1" />
         </Grid>
-        
+
         <Grid Grid.Column="1" Margin="100">
             <controls:ChallengeControl />
-            
         </Grid>
 
     </Grid>
