@@ -7,10 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\Controllers\SoundsControl.xaml.cs">
+    <Compile Update="Views\Controllers\ChallengeControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Controllers\TimerButtonsControl.xaml.cs">
+    <Compile Update="Views\Controllers\TimerButtonControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Controllers\TimerControl.xaml.cs">
@@ -26,10 +26,10 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Controllers\SoundsControl.xaml">
+    <Page Update="Views\Controllers\ChallengeControl.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Controllers\TimerButtonsControl.xaml">
+    <Page Update="Views\Controllers\TimerButtonControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Controllers\TimerControl.xaml">

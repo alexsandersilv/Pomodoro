@@ -4,33 +4,9 @@
              xmlns:local="clr-namespace:Pomodoro"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <FontFamily x:Key="RobotoFont">pack://application:,,,/Resources/Fonts/Roboto.ttf#RobotoFont</FontFamily>
-        <Style TargetType="TextBlock">
-            
-            <Setter Property="FontFamily" Value="{StaticResource RobotoFont}"/>
-        </Style>
-        <Style TargetType="Control">
-            <Setter Property="FontFamily" Value="{StaticResource RobotoFont}"/>
-        </Style>
+        <FontFamily x:Key="InterFont">pack://application,,,/Resources/Fonts/InterRegular.ttf#InterFont</FontFamily>
+        <FontFamily x:Key="InterFontBold">pack://application,,,/Resources/Fonts/InterBold.ttf#InterFontBold</FontFamily>
 
-        <Style TargetType="Button">
-            <Setter Property="Width" Value="45" />
-            <Setter Property="Height" Value="45" />
-            <Setter Property="Background" Value="Transparent" />
-            <Setter Property="BorderBrush" Value="Black" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" 
-                                BorderBrush="{TemplateBinding BorderBrush}" 
-                                BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="50">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+        <FontFamily x:Key="Rajdhani">pack://application,,,/Resources/Fonts/RajdhaniBold.ttf#Rajdhani</FontFamily>
     </Application.Resources>
 </Application>

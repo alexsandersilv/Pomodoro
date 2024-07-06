@@ -9,24 +9,27 @@
         ResizeMode="NoResize"
         WindowStyle="SingleBorderWindow"
         SizeToContent="WidthAndHeight"
+        Background="#121214"
         Title="Pomodoro" MinHeight="600" MinWidth="900">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="75" />
-            <RowDefinition Height="*" />
-
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <controls:TimerControl x:Name="timerControl"  Grid.Column="1" Grid.Row="1" />
-        <controls:TimerButtonsControl x:Name="timerButtonsControl" Grid.Column="1" Grid.Row="2"
-                                      HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Grid Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <controls:TimerControl x:Name="timerControl" />
+            <controls:TimerButtonControl x:Name="timerButtonControl" Margin="0, 20, 0, 0" Grid.Row="1" />
+        </Grid>
+
+        
 
     </Grid>
 </Window>

@@ -10,21 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\Fonts\Roboto.ttf" />
-    <None Remove="Resources\Images\minus.png" />
-    <None Remove="Resources\Images\pause.png" />
-    <None Remove="Resources\Images\play.png" />
-    <None Remove="Resources\Images\plus.png" />
-    <None Remove="Resources\Images\stop.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Resources\Fonts\Roboto.ttf" />
-    <Resource Include="Resources\Images\minus.png" />
-    <Resource Include="Resources\Images\pause.png" />
-    <Resource Include="Resources\Images\play.png" />
-    <Resource Include="Resources\Images\plus.png" />
-    <Resource Include="Resources\Images\stop.png" />
+    <None Remove="Resources\Fonts\InterBold.ttf" />
+    <None Remove="Resources\Fonts\InterRegular.ttf" />
+    <None Remove="Resources\Fonts\InterSemiBold.ttf" />
+    <None Remove="Resources\Fonts\RajdhaniBold.ttf" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +43,21 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Fonts\InterBold.ttf" />
+    <Resource Include="Resources\Fonts\InterRegular.ttf" />
+    <Resource Include="Resources\Fonts\InterSemiBold.ttf" />
+    <Resource Include="Resources\Fonts\RajdhaniBold.ttf" />
   </ItemGroup>
 
 </Project>
