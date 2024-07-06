@@ -50,6 +50,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Resources\Fonts\InterBold.ttf" />
     <Resource Include="Resources\Fonts\InterRegular.ttf" />
     <Resource Include="Resources\Fonts\InterSemiBold.ttf" />

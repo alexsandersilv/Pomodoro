@@ -1,6 +1,7 @@
 ﻿using System.Windows.Controls;
 using System.Windows.Threading;
 using System.Windows;
+using Pomodoro.Utils;
 
 namespace Pomodoro.Views.Controllers
 {
@@ -10,9 +11,11 @@ namespace Pomodoro.Views.Controllers
     public partial class TimerButtonControl : UserControl
     {
         DispatcherTimer timer;
+        Notification notification = new Notification();
 
         TimerControl timerControl;
         bool isActive;
+
         public TimerButtonControl()
         {
             InitializeComponent();
@@ -29,6 +32,11 @@ namespace Pomodoro.Views.Controllers
             this.timerControl = timerControl;
         }
 
+        private void PlayNotification()
+        {
+            notification.PlayNotification();
+        }
+
         private void Timer_Tick(object sender, EventArgs e)
         {
             int minutesLeft = timerControl.MinutesL;
@@ -42,6 +50,7 @@ namespace Pomodoro.Views.Controllers
                 if (minutesLeft == 0 && minutesRight == 0)
                 {
                     timer.Stop();
+                    PlayNotification();
                 }
                 else
                 {

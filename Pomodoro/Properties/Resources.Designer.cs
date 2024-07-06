@@ -93,6 +93,16 @@ namespace Pomodoro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] notification {
+            get {
+                object obj = ResourceManager.GetObject("notification", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] RajdhaniBold {
             get {
                 object obj = ResourceManager.GetObject("RajdhaniBold", resourceCulture);
